@@ -22,16 +22,16 @@
       background-color: rgb(10, 82, 107);
     }
     .image_gallery img{
-        width: 30%;
-        padding: 5px;
-        height: auto;
+        padding: auto;
+        max-width: 175px;
+        max-height: auto;
         display: inline-block;
-        margin-left: 15%;
+        margin-left: auto;
         margin-right: auto;
     }
     .image_gallery img:hover{
         filter: grayscale(0);
-        transform: scale(1.5);
+        transform: scale(1.2);
     }
   }
 /* tester */
